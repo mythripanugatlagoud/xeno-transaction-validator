@@ -1,0 +1,11 @@
+order_id,product_name,phone,order_date,order_time,payment_mode,amount
+1001,USB Cable,12345,2025-04-01,17:22,Cash on Delivery,20408
+1002,Laptop,8447705864,2025-15-44,14:31,Net Banking,22362
+1003,Mouse,7903259674,2025-04-03,29:99,Cash on Delivery,43516
+1004,Headphones,9301563627,2025-04-04,15:01,Crypto,26631
+1005,Mouse,,2025-04-05,15:02,Wallet,46799
+1005,Mouse,,2025-04-05,15:02,Wallet,46799
+1007,Keyboard,9128148965,2025-04-07,13:04,Wallet,-500
+1008,Mouse,6852719713,2025-04-08,12:08,Credit Card,43633
+1009,USB Cable,6529991668,2025-04-09,17:41,Wallet,9060
+1010,Mouse,9221942012,2025-04-10,18:08,Credit Card,32189
