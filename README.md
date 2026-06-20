@@ -1,6 +1,4 @@
-# xeno-transaction-validator
-A Streamlit-based transaction data validation and processing platform that validates phone numbers, dates, times, payment modes, and data integrity, with cleaned CSV download and automatic file chunking.
-# 🧾 Transaction Data Validation & Processing Platform
+# Transaction Data Validation & Processing Platform
 
 A web-based transaction data validation platform built using **Python**, **Pandas**, and **Streamlit**. The application validates transaction datasets, identifies data quality issues, generates a cleaned output file, and supports automatic CSV chunking for large datasets.
 
@@ -8,7 +6,7 @@ A web-based transaction data validation platform built using **Python**, **Panda
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Organizations often receive transaction data from multiple sources with inconsistent formats and missing information. This application helps validate uploaded transaction datasets before they are processed further.
 
@@ -25,14 +23,14 @@ The platform performs:
 
 ---
 
-## ✨ Features
+##  Features
 
-### 📂 CSV Upload
+### CSV Upload
 
 - Upload transaction datasets in CSV format.
 - Preview uploaded data before validation.
 
-### 🧩 Flexible Column Mapping
+### Flexible Column Mapping
 
 Different companies use different column names.
 
@@ -48,7 +46,7 @@ making the platform reusable across different datasets.
 
 ---
 
-### 📱 Phone Number Validation
+### Phone Number Validation
 
 Supports configurable country-specific validation.
 
@@ -63,7 +61,7 @@ Additional countries can easily be added by updating the configuration.
 
 ---
 
-### 📅 Date & Time Validation
+### Date & Time Validation
 
 Validates common date formats.
 
@@ -81,7 +79,7 @@ Also validates multiple time formats including:
 
 ---
 
-### 💳 Payment Mode Validation
+### Payment Mode Validation
 
 Checks whether payment mode belongs to the allowed list.
 
@@ -96,7 +94,7 @@ Example:
 
 ---
 
-### 📊 Validation Summary
+### Validation Summary
 
 Displays:
 
@@ -109,7 +107,7 @@ Displays:
 
 ---
 
-### 📥 Clean Dataset Generation
+### Clean Dataset Generation
 
 After validation, only valid records are retained.
 
@@ -117,13 +115,13 @@ Users can directly download the cleaned CSV.
 
 ---
 
-### 📦 Large File Processing
+###  Large File Processing
 
 Large datasets are automatically divided into multiple CSV chunks for easier processing and download.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python
 - Streamlit
@@ -133,7 +131,7 @@ Large datasets are automatically divided into multiple CSV chunks for easier pro
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -145,47 +143,6 @@ Large datasets are automatically divided into multiple CSV chunks for easier pro
 ├── company_transactions_validation_test.csv
 └── large_transactions.csv
 ```
-
----
-
-## 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/yourusername/xeno-transaction-validator.git
-```
-
-Move into the project folder
-
-```bash
-cd xeno-transaction-validator
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application
-
-```bash
-streamlit run app.py
-```
-
----
-
-## 📋 Sample Test Files
-
-The repository includes sample datasets for testing:
-
-- ✅ valid_transactions.csv
-- ❌ invalid_transactions.csv
-- 🏢 company_transactions_validation_test.csv
-- 📦 large_transactions.csv
-
-These datasets demonstrate different validation scenarios.
 
 ---
 
@@ -223,20 +180,7 @@ Download CSV
 
 ---
 
-## 📸 Application Preview
-
-The application includes:
-
-- CSV Upload Interface
-- Dataset Preview
-- Column Mapping
-- Validation Summary Dashboard
-- Detailed Validation Results
-- Clean Dataset Download
-
----
-
-## 🎯 Future Improvements
+## Future Improvements
 
 Possible enhancements include:
 
@@ -251,7 +195,7 @@ Possible enhancements include:
 
 ---
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project helped strengthen my understanding of:
 
@@ -265,18 +209,3 @@ This project helped strengthen my understanding of:
 
 ---
 
-## 👩‍💻 Author
-
-**Mythri Panugatla**
-
-B.Tech CSE (AI & ML)
-
-SRM Institute of Science and Technology
-
-GitHub: https://github.com/mythripanugatlagoud
-
----
-
-## 📄 License
-
-This project was developed for the **Xeno Implementation Internship Assignment (June 2026)** and is intended for educational and demonstration purposes.
