@@ -2,7 +2,7 @@
 
 A web-based transaction data validation platform built using **Python**, **Pandas**, and **Streamlit**. The application validates transaction datasets, identifies data quality issues, generates a cleaned output file, and supports automatic CSV chunking for large datasets.
 
-🔗 **Live Demo:** https://xeno-transaction-validator-fhn4w4f3xszdfgytocycuk.streamlit.app/
+**Live Demo:** https://xeno-transaction-validator-fhn4w4f3xszdfgytocycuk.streamlit.app/
 
 ---
 
@@ -146,7 +146,7 @@ Large datasets are automatically divided into multiple CSV chunks for easier pro
 
 ---
 
-## 🔄 Workflow
+## Workflow
 
 ```
 Upload CSV
